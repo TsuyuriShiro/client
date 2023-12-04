@@ -75,31 +75,31 @@ export default {
 
   .create-post {
     margin-bottom: 20px;
-    display: flex; /* 使用 Flex 布局 */
-    align-items: center; /* 垂直居中对齐 */
+    display: flex; 
+    align-items: center; 
   }
 
   label {
     margin-right: 10px;
-    font-weight: bold; /* 加粗 Latest News */
+    font-weight: bold; 
   }
 
   input {
     padding: 8px;
     margin-right: 10px;
-    flex: 1; /* 拉长输入框，占据剩余空间 */
+    flex: 1; 
   }
 
   button {
     padding: 8px 16px;
-    background-color: #007bff; /* 修改为蓝色 */
+    background-color: #007bff; 
     color: white;
     border: none;
     cursor: pointer;
   }
 
   button:hover {
-    background-color: #0056b3; /* 修改为深蓝色 */
+    background-color: #0056b3; 
   }
 
   p.error {
@@ -112,7 +112,7 @@ export default {
 
   .post {
     position: relative;
-    border: 1px solid #0d5097; /* 修改为蓝色 */
+    border: 1px solid #0d5097;
     background-color: rgb(208, 245, 248);
     padding: 10px;
     margin-bottom: 15px;
