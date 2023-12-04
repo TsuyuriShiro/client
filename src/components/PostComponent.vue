@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>Welcome to WG!</h1>
+    <h1>Welcome to WG~!</h1>
     <div class="create-post">
       <label for="create-post">Latest News!?</label>
       <input type="text" id="create-post" v-model="text" placeholder="Create a post">
